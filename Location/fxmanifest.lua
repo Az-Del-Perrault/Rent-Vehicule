@@ -26,3 +26,9 @@ server_scripts {
     "@oxmysql/lib/MySQL.lua",
     "server/*.lua",
 }
+
+dependencies {
+    'ox_lib',
+    'skinchanger',
+    'inside-interaction',
+}
