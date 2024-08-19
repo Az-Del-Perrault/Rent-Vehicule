@@ -51,7 +51,6 @@ function OpenMenuRental(Type)
                                     })
                             
                                     if input and input[1] then
-                                        print(json.encode(input))
                             
                                         TriggerServerEvent("BuyVehicle", v.Name, v.Prix, Type.Type, v.SpawnVehicle, v.Label, input[1])
                             
